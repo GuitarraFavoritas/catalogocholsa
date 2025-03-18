@@ -1,0 +1,879 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, figure {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+}
+p.AUTOR {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Adobe Garamond Pro Bold", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.15;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.COLECCI-N {
+	color:#000000;
+	font-family:"Barlow Condensed", sans-serif;
+	font-size:26px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.15;
+	margin-bottom:5px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.EDICI-N {
+	color:#000000;
+	font-family:"Adobe Garamond Pro", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.15;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.IMPRESI-N {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Adobe Garamond Pro Bold", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.15;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.ISBN-COLECCI-N {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Adobe Garamond Pro", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.15;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.ISBN-TOMO {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Adobe Garamond Pro", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.15;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.List-Paragraph {
+	-epub-hyphens:none;
+	color:#d90000;
+	font-family:"Barlow Light", sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.15;
+	margin-bottom:10px;
+	margin-left:36px;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.PORTADA {
+	color:#000000;
+	font-family:"Adobe Garamond Pro Bold", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.15;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:avoid;
+	page-break-before:always;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.PRECIO {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Adobe Garamond Pro Bold", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.15;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.P-GINAS {
+	color:#000000;
+	font-family:"Adobe Garamond Pro", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.15;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.P-RRAFO {
+	-epub-hyphens:none;
+	color:#d90000;
+	font-family:"Barlow Light", sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.15;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.SERIES {
+	-epub-hyphens:none;
+	color:#008000;
+	font-family:"Adobe Garamond Pro", serif;
+	font-size:16px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:uppercase;
+	widows:1;
+}
+p.TAMA-O {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Adobe Garamond Pro", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.15;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.TITULO {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:"Adobe Garamond Pro", serif;
+	font-size:14px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.15;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:5px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	orphans:1;
+	page-break-after:avoid;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span.DATO {
+	color:#0000ff;
+	font-family:Poppins, sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+span._idGenBNMarker-1 {
+	display:inline-block;
+	text-indent:0;
+	width:56px;
+}
+span._idGenBNMarker-2 {
+	display:inline-block;
+	text-indent:0;
+	width:55px;
+}
+span._idGenBNMarker-3 {
+	display:inline-block;
+	text-indent:0;
+	width:84px;
+}
+span._idGenBNMarker-4 {
+	display:inline-block;
+	text-indent:0;
+	width:65px;
+}
+span._idGenBNMarker-5 {
+	display:inline-block;
+	text-indent:0;
+	width:70px;
+}
+span._idGenBNMarker-6 {
+	display:inline-block;
+	text-indent:0;
+	width:58px;
+}
+p.ParaOverride-1 {
+	orphans:99;
+}
+span.CharOverride-1 {
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	color:#000000;
+}
+span.CharOverride-3 {
+	font-style:normal;
+	font-weight:bold;
+}
+p._idGenParaOverride-1 {
+	page-break-after:always;
+}
+#_idContainer245, #_idContainer246, #_idContainer247, #_idContainer248, #_idContainer249, #_idContainer250, #_idContainer251, #_idContainer252, #_idContainer253, #_idContainer254, #_idContainer255, #_idContainer256, #_idContainer257, #_idContainer258, #_idContainer259, #_idContainer260, #_idContainer261, #_idContainer262, #_idContainer263, #_idContainer264, #_idContainer265, #_idContainer266, #_idContainer267, #_idContainer268, #_idContainer269, #_idContainer270, #_idContainer271, #_idContainer272, #_idContainer273, #_idContainer274, #_idContainer275, #_idContainer276, #_idContainer277, #_idContainer278, #_idContainer279, #_idContainer280, #_idContainer281, #_idContainer282, #_idContainer283, #_idContainer284, #_idContainer285, #_idContainer286, #_idContainer287, #_idContainer288, #_idContainer289, #_idContainer290, #_idContainer291, #_idContainer292, #_idContainer293, #_idContainer294, #_idContainer295, #_idContainer296, #_idContainer297, #_idContainer298, #_idContainer299, #_idContainer300, #_idContainer301, #_idContainer302, #_idContainer303, #_idContainer304, #_idContainer305, #_idContainer306, #_idContainer307, #_idContainer308, #_idContainer309, #_idContainer310, #_idContainer311, #_idContainer312, #_idContainer313, #_idContainer314, #_idContainer315, #_idContainer316, #_idContainer317, #_idContainer318, #_idContainer319, #_idContainer320, #_idContainer321, #_idContainer322, #_idContainer323, #_idContainer324, #_idContainer325, #_idContainer326, #_idContainer327, #_idContainer328, #_idContainer329, #_idContainer330, #_idContainer331, #_idContainer332, #_idContainer333, #_idContainer334, #_idContainer335, #_idContainer336, #_idContainer337, #_idContainer338, #_idContainer339, #_idContainer340, #_idContainer341, #_idContainer342, #_idContainer343, #_idContainer344, #_idContainer345, #_idContainer346, #_idContainer347, #_idContainer348, #_idContainer349, #_idContainer350, #_idContainer351, #_idContainer352, #_idContainer353, #_idContainer354, #_idContainer355 {
+	display:inline-block;
+	padding:108.82% 0% 0% 0%;
+	position:relative;
+	width:79.41%;
+}
+img._idGenObjectAttribute-1 {
+	width:19.41%;
+}
+img._idGenObjectAttribute-2 {
+	width:19.33%;
+}
+img._idGenObjectAttribute-3 {
+	width:19.56%;
+}
+img._idGenObjectAttribute-4 {
+	width:20.01%;
+}
+img._idGenObjectAttribute-5 {
+	width:19.25%;
+}
+img._idGenObjectAttribute-6 {
+	width:18.82%;
+}
+img._idGenObjectAttribute-7 {
+	width:17.86%;
+}
+img._idGenObjectAttribute-8 {
+	width:17.43%;
+}
+img._idGenObjectAttribute-9 {
+	width:12.05%;
+}
+img._idGenObjectAttribute-10 {
+	width:12.58%;
+}
+img._idGenObjectAttribute-11 {
+	width:17.88%;
+}
+img._idGenObjectAttribute-12 {
+	width:19.72%;
+}
+img._idGenObjectAttribute-13 {
+	width:20.03%;
+}
+img._idGenObjectAttribute-14 {
+	width:20.33%;
+}
+img._idGenObjectAttribute-15 {
+	width:20.28%;
+}
+img._idGenObjectAttribute-16 {
+	width:18.49%;
+}
+img._idGenObjectAttribute-17 {
+	width:17.64%;
+}
+img._idGenObjectAttribute-18 {
+	width:18.94%;
+}
+img._idGenObjectAttribute-19 {
+	width:18.48%;
+}
+img._idGenObjectAttribute-20 {
+	width:19.87%;
+}
+img._idGenObjectAttribute-21 {
+	width:16.62%;
+}
+img._idGenObjectAttribute-22 {
+	width:20.27%;
+}
+img._idGenObjectAttribute-23 {
+	width:12.16%;
+}
+img._idGenObjectAttribute-24 {
+	width:20.21%;
+}
+img._idGenObjectAttribute-25 {
+	width:12.09%;
+}
+img._idGenObjectAttribute-26 {
+	width:20.17%;
+}
+img._idGenObjectAttribute-27 {
+	width:20.32%;
+}
+img._idGenObjectAttribute-28 {
+	width:21.17%;
+}
+img._idGenObjectAttribute-29 {
+	width:17.09%;
+}
+img._idGenObjectAttribute-30 {
+	width:17.23%;
+}
+img._idGenObjectAttribute-31 {
+	width:15.83%;
+}
+img._idGenObjectAttribute-32 {
+	width:16.44%;
+}
+img._idGenObjectAttribute-33 {
+	width:16.31%;
+}
+img._idGenObjectAttribute-34 {
+	width:17.03%;
+}
+img._idGenObjectAttribute-35 {
+	width:16.83%;
+}
+img._idGenObjectAttribute-36 {
+	width:15.96%;
+}
+img._idGenObjectAttribute-37 {
+	width:16.11%;
+}
+img._idGenObjectAttribute-38 {
+	width:35.58%;
+}
+img._idGenObjectAttribute-39 {
+	width:79.18%;
+}
+img._idGenObjectAttribute-40 {
+	width:35.41%;
+}
+img._idGenObjectAttribute-41 {
+	width:34.12%;
+}
+img._idGenObjectAttribute-42 {
+	width:31.62%;
+}
+img._idGenObjectAttribute-43 {
+	width:32.28%;
+}
+img._idGenObjectAttribute-44 {
+	width:34.40%;
+}
+img._idGenObjectAttribute-45 {
+	width:36.43%;
+}
+img._idGenObjectAttribute-46 {
+	width:37.46%;
+}
+img._idGenObjectAttribute-47 {
+	width:43.56%;
+}
+img._idGenObjectAttribute-48 {
+	width:53.04%;
+}
+img._idGenObjectAttribute-49 {
+	width:55.78%;
+}
+img._idGenObjectAttribute-50 {
+	width:49.86%;
+}
+img._idGenObjectAttribute-51 {
+	width:48.89%;
+}
+img._idGenObjectAttribute-52 {
+	width:38.10%;
+}
+img._idGenObjectAttribute-53 {
+	width:36.08%;
+}
+img._idGenObjectAttribute-54 {
+	width:51.85%;
+}
+img._idGenObjectAttribute-55 {
+	width:50.65%;
+}
+img._idGenObjectAttribute-56 {
+	width:49.65%;
+}
+img._idGenObjectAttribute-57 {
+	width:39.30%;
+}
+img._idGenObjectAttribute-58 {
+	width:56.02%;
+}
+img._idGenObjectAttribute-59 {
+	width:51.66%;
+}
+img._idGenObjectAttribute-60 {
+	width:49.31%;
+}
+img._idGenObjectAttribute-61 {
+	width:53.54%;
+}
+img._idGenObjectAttribute-62 {
+	width:53.27%;
+}
+img._idGenObjectAttribute-63 {
+	width:54.44%;
+}
+img._idGenObjectAttribute-64 {
+	width:53.50%;
+}
+img._idGenObjectAttribute-65 {
+	width:55.98%;
+}
+img._idGenObjectAttribute-66 {
+	width:57.24%;
+}
+img._idGenObjectAttribute-67 {
+	width:20.71%;
+}
+img._idGenObjectAttribute-68 {
+	width:19.90%;
+}
+img._idGenObjectAttribute-69 {
+	width:20.44%;
+}
+img._idGenObjectAttribute-70 {
+	width:19.31%;
+}
+img._idGenObjectAttribute-71 {
+	width:20.00%;
+}
+img._idGenObjectAttribute-72 {
+	width:20.25%;
+}
+img._idGenObjectAttribute-73 {
+	width:49.67%;
+}
+img._idGenObjectAttribute-74 {
+	width:51.78%;
+}
+img._idGenObjectAttribute-75 {
+	width:50.11%;
+}
+img._idGenObjectAttribute-76 {
+	width:28.59%;
+}
+img._idGenObjectAttribute-77 {
+	width:35.06%;
+}
+img._idGenObjectAttribute-78 {
+	width:25.35%;
+}
+img._idGenObjectAttribute-79 {
+	width:18.89%;
+}
+img._idGenObjectAttribute-80 {
+	width:16.81%;
+}
+img._idGenObjectAttribute-81 {
+	width:18.42%;
+}
+img._idGenObjectAttribute-82 {
+	width:19.11%;
+}
+img._idGenObjectAttribute-83 {
+	width:18.87%;
+}
+img._idGenObjectAttribute-84 {
+	width:20.82%;
+}
+img._idGenObjectAttribute-85 {
+	width:20.19%;
+}
+img._idGenObjectAttribute-86 {
+	width:19.96%;
+}
+img._idGenObjectAttribute-87 {
+	width:20.67%;
+}
+img._idGenObjectAttribute-88 {
+	width:20.84%;
+}
+img._idGenObjectAttribute-89 {
+	width:17.20%;
+}
+img._idGenObjectAttribute-90 {
+	width:20.13%;
+}
+img._idGenObjectAttribute-91 {
+	width:23.49%;
+}
+img._idGenObjectAttribute-92 {
+	width:29.38%;
+}
+img._idGenObjectAttribute-93 {
+	width:20.30%;
+}
+img._idGenObjectAttribute-94 {
+	width:20.49%;
+}
+img._idGenObjectAttribute-95 {
+	width:17.56%;
+}
+img._idGenObjectAttribute-96 {
+	width:19.84%;
+}
+img._idGenObjectAttribute-97 {
+	width:20.34%;
+}
+img._idGenObjectAttribute-98 {
+	width:20.26%;
+}
+img._idGenObjectAttribute-99 {
+	width:20.22%;
+}
+img._idGenObjectAttribute-100 {
+	width:19.94%;
+}
+img._idGenObjectAttribute-101 {
+	width:20.15%;
+}
+img._idGenObjectAttribute-102 {
+	width:20.50%;
+}
+img._idGenObjectAttribute-103 {
+	width:21.07%;
+}
+img._idGenObjectAttribute-104 {
+	width:19.81%;
+}
+img._idGenObjectAttribute-105 {
+	width:19.67%;
+}
+img._idGenObjectAttribute-106 {
+	width:19.70%;
+}
+img._idGenObjectAttribute-107 {
+	width:20.18%;
+}
+img._idGenObjectAttribute-108 {
+	width:20.72%;
+}
+img._idGenObjectAttribute-109 {
+	width:20.23%;
+}
+img._idGenObjectAttribute-110 {
+	width:19.75%;
+}
+img._idGenObjectAttribute-111 {
+	width:19.98%;
+}
+img._idGenObjectAttribute-112 {
+	width:19.45%;
+}
+img._idGenObjectAttribute-113 {
+	width:19.04%;
+}
+img._idGenObjectAttribute-114 {
+	width:18.56%;
+}
+img._idGenObjectAttribute-115 {
+	width:18.77%;
+}
+img._idGenObjectAttribute-116 {
+	width:20.43%;
+}
+img._idGenObjectAttribute-117 {
+	width:19.47%;
+}
+img._idGenObjectAttribute-118 {
+	width:22.06%;
+}
+img._idGenObjectAttribute-119 {
+	width:20.46%;
+}
+img._idGenObjectAttribute-120 {
+	width:18.12%;
+}
+img._idGenObjectAttribute-121 {
+	width:17.84%;
+}
+img._idGenObjectAttribute-122 {
+	width:17.19%;
+}
+img._idGenObjectAttribute-123 {
+	width:17.90%;
+}
+img._idGenObjectAttribute-124 {
+	width:18.25%;
+}
+img._idGenObjectAttribute-125 {
+	width:18.90%;
+}
+img._idGenObjectAttribute-126 {
+	width:18.07%;
+}
+img._idGenObjectAttribute-127 {
+	width:18.59%;
+}
+img._idGenObjectAttribute-128 {
+	width:18.46%;
+}
+img._idGenObjectAttribute-129 {
+	width:23.08%;
+}
+img._idGenObjectAttribute-130 {
+	width:18.53%;
+}
+img._idGenObjectAttribute-131 {
+	width:18.20%;
+}
+img._idGenObjectAttribute-132 {
+	width:19.29%;
+}
+img._idGenObjectAttribute-133 {
+	width:19.88%;
+}
+img._idGenObjectAttribute-134 {
+	width:28.57%;
+}
+img._idGenObjectAttribute-135 {
+	width:17.07%;
+}
+img._idGenObjectAttribute-136 {
+	width:18.57%;
+}
+img._idGenObjectAttribute-137 {
+	width:17.45%;
+}
+img._idGenObjectAttribute-138 {
+	width:17.44%;
+}
+img._idGenObjectAttribute-139 {
+	width:36.06%;
+}
+img._idGenObjectAttribute-140 {
+	width:26.21%;
+}
+img._idGenObjectAttribute-141 {
+	width:21.71%;
+}
+img._idGenObjectAttribute-142 {
+	width:17.11%;
+}
+img._idGenObjectAttribute-143 {
+	width:18.81%;
+}
+img._idGenObjectAttribute-144 {
+	width:19.02%;
+}
+img._idGenObjectAttribute-145 {
+	width:23.54%;
+}
+img._idGenObjectAttribute-146 {
+	width:13.40%;
+}
+img._idGenObjectAttribute-147 {
+	width:10.47%;
+}
+img._idGenObjectAttribute-148 {
+	width:15.45%;
+}
+img._idGenObjectAttribute-149 {
+	width:19.77%;
+}
+img._idGenObjectAttribute-150 {
+	width:26.19%;
+}
+img._idGenObjectAttribute-151 {
+	width:38.66%;
+}
+img._idGenObjectAttribute-152 {
+	width:17.04%;
+}
+img._idGenObjectAttribute-153 {
+	width:19.93%;
+}
+img._idGenObjectAttribute-154 {
+	width:21.16%;
+}
+img._idGenObjectAttribute-155 {
+	width:19.37%;
+}
+img._idGenObjectAttribute-156 {
+	width:19.85%;
+}
+img._idGenObjectAttribute-157 {
+	width:20.06%;
+}
+img._idGenObjectAttribute-158 {
+	width:21.36%;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}
+div._idGenObjectLayout-1 {
+	text-align:center;
+}
